@@ -47,13 +47,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Resume">Resume</a>
+              <router-link class="nav-link" to="/resume">Resume</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Projects">Projects</a>
+              <router-link class="nav-link" to="/project">Projects</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
           </ul>
         </div>

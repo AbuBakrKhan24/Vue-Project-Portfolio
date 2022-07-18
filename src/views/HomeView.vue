@@ -1,34 +1,36 @@
 <template>
-  <div class="home">
-    <Navbar />
-    <section id="Home" class="text-light section_style min-vh-100">
-      <div id="homepage" class="bg-dark"></div>
-      <div class="container home-info">
-        <div class="row">
-          <div class="col-lg-6 home_details">
-            <h5 class="text-success">HI THERE,</h5>
-            <h2>I AM AN ASPIRING FULL STACK DEVELOPER</h2>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid me"
-              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/me.1.png?raw=true"
-            />
-          </div>
+  <Navbar />
+  <section id="Home" class="text-light section_style">
+    <div id="homepage" class="bg-dark"></div>
+    <div class="container home-info">
+      <div class="row">
+        <div class="col-lg-6 home_details">
+          <h5 class="text-success">HI THERE,</h5>
+          <h2>I AM AN ASPIRING FULL STACK DEVELOPER</h2>
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="img-fluid me"
+            src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/me.1.png?raw=true"
+          />
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+
+  <Footer />
 </template>
 
 <script>
 // @ is an alias to /src
 
 import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   components: {
     Navbar,
+    Footer,
   },
 };
 </script>
@@ -39,8 +41,8 @@ section.section_style {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  /* padding-top: 60px; */
+  /* padding-bottom: 30px; */
 }
 /* all done */
 
@@ -61,6 +63,7 @@ section.section_style {
 section#Home {
   padding-top: 5%;
   position: relative;
+  height: 89vh;
 }
 
 .home-info {
@@ -84,5 +87,10 @@ img.me {
   filter: drop-shadow(8px 8px 5px #222);
 }
 /* Home done */
+/* Footer */
+.footer-area {
+  padding-top: 7px;
+  padding-bottom: 20px;
+}
 /* Home page section done */
 </style>
