@@ -79,112 +79,87 @@
         </div>
 
         <div class="container skill-content">
-          <div class="row">
+          <div class="skills">
             <!-- HTML BADGE -->
-            <div class="col-lg-6 col-md-12 skills">
-              <div class="badges">
-                <i class="fa-brands fa-html5 text-danger"></i>
-              </div>
-              <div class="progress progress-design">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                  role="progressbar"
-                  style="width: 100%"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  100%
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-brands fa-html5 text-danger"></i>
+                </div>
+                <div class="html_back back">
+                  <i class="fa-brands fa-html5 text-danger"></i>
                 </div>
               </div>
             </div>
+
             <!-- Bootstrap Badge -->
-            <div class="col-lg-6 col-md-12 skills">
-              <div class="badges">
-                <i class="fa-brands fa-bootstrap text-secondary"></i>
-              </div>
-              <div class="progress progress-design">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
-                  role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <!-- 65% -->
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-brands fa-bootstrap text-secondary"></i>
+                </div>
+                <div class="bootsstrap_back back">
+                  <i class="fa-brands fa-bootstrap text-secondary"></i>
                 </div>
               </div>
             </div>
+
             <!-- CSS Badge -->
-            <div class="col-lg-6 col-md-12 skills">
-              <div class="badges">
-                <i class="fa-brands fa-css3-alt text-info"></i>
-              </div>
-              <div class="progress progress-design">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
-                  role="progressbar"
-                  style="width: 85%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <!-- 80% -->
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-brands fa-css3-alt text-info"></i>
+                </div>
+                <div class="css3_back back">
+                  <i class="fa-brands fa-css3-alt text-info"></i>
                 </div>
               </div>
             </div>
+
             <!-- JavaScript Badge -->
-            <div class="col-lg-6 col-md-12 skills">
-              <div class="badges">
-                <i class="fa-brands fa-js bg-warning text-dark"></i>
-              </div>
-              <div class="progress progress-design">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                  role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <!-- Still Working on it ;) -->
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-brands fa-js bg-warning text-dark"></i>
+                </div>
+                <div class="js_back back">
+                  <i class="fa-brands fa-js bg-warning text-dark"></i>
                 </div>
               </div>
             </div>
+
             <!-- Vue3 Badge -->
-            <div class="col-lg-6 col-md-12 skills">
-              <div class="badges">
-                <i class="fa-brands fa-vuejs text-success"></i>
-              </div>
-              <div class="progress progress-design">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                  role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <!-- Still working on it ;) -->
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-brands fa-vuejs text-success"></i>
+                </div>
+                <div class="vuejs_back back">
+                  <i class="fa-brands fa-vuejs text-success"></i>
                 </div>
               </div>
             </div>
+
             <!-- GitHub Badge -->
-            <div class="col-lg-6 col-md-12 skills">
-              <div class="badges">
-                <i class="fa-brands fa-github"></i>
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-brands fa-brands fa-github"></i>
+                </div>
+                <div class="github_back back">
+                  <i class="fa-brands fa-brands fa-github"></i>
+                </div>
               </div>
-              <div class="progress progress-design">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <!-- 80% -->
+            </div>
+
+            <!-- Databases badge -->
+            <div class="badge_box">
+              <div class="content">
+                <div class="front">
+                  <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="database_back back">
+                  <i class="fa-solid fa-database"></i>
                 </div>
               </div>
             </div>
@@ -285,7 +260,7 @@
                 <div class="row carousel-border">
                   <div class="col-lg-6">
                     <img
-                      src="https://github.com/AbuBakrKhan24/Vue-Project-Portfolio/blob/main/pics/Leandre%20(5).JPG?raw=true"
+                      src="https://github.com/AbuBakrKhan24/Vue-Project-Portfolio/blob/main/pics/Leandre%20(5)1.JPG?raw=true"
                       class="d-block w-100 Testimonial-pic"
                       alt="..."
                     />
@@ -427,22 +402,125 @@ td {
   display: flex;
   flex-direction: column;
 }
-
 .skills {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 9%;
 }
 
 .badges {
-  font-size: 3pc;
-  width: 20%;
+  /* font-size: 3pc; */
+  width: 100%;
   text-align: center;
 }
 
-.progress-design {
-  margin-left: 20px;
-  margin-top: 25px;
-  width: 70%;
+/* .badge_box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 1px solid #08d665;
+    justify-content: center;
+    align-items: center;
+  } */
+
+/* card flip */
+.badge_box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 2px solid #08d665;
+  justify-content: center;
+  align-items: center;
+
+  float: left;
+  perspective: 500px;
+  top: 50%;
+  left: 50%;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.badge_box:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: #03446a;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* .html_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+.css3_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+.js_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+.vuejs_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+.github_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+.bootstrap_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+}
+.database_back {
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
+} */
 
 .line-skills {
   margin-top: 10%;
@@ -450,10 +528,23 @@ td {
   border-top: solid 2px #08d665;
 }
 
+i.fa-solid.fa-database {
+  color: mediumpurple;
+}
+
+i {
+  font-size: 100px;
+}
+
 /* Testimonials */
 
-#Testimonials {
+/* #Testimonials {
   padding-bottom: 5%;
+} */
+
+.container.Testimonials {
+  padding-bottom: 4%;
+  /* padding-top: 14px; */
 }
 
 .carousel-indicators {
