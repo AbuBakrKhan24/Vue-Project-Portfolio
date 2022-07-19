@@ -285,7 +285,7 @@
                 <div class="row carousel-border">
                   <div class="col-lg-6">
                     <img
-                      src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/Le-Andre.png?raw=true"
+                      src="https://github.com/AbuBakrKhan24/Vue-Project-Portfolio/blob/main/pics/Leandre%20(5).JPG?raw=true"
                       class="d-block w-100 Testimonial-pic"
                       alt="..."
                     />
@@ -471,7 +471,7 @@ td {
 }
 
 .Testimonial-pic {
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   /* border-radius: 20%; */
   padding-bottom: 20px;
@@ -493,6 +493,10 @@ td {
 @media (max-width="992px") {
   .carousel-inner {
     height: 640px;
+  }
+  .Testimonial-pic {
+    height: 300px;
+    object-fit: cover;
   }
 }
 </style>
