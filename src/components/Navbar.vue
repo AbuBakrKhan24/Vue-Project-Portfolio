@@ -39,10 +39,15 @@
                     >About Me</router-link
                   >
                 </li>
-                <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+                <li>
+                  <a class="dropdown-item" href="#Skills">Skills</a>
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#Testimonials">Testimonials</a>
+                  <router-link to="/about" tag="Testimonials"
+                    >Testimonials</router-link
+                  >
+                  <!-- <a class="dropdown-item" href="#Testimonials">Testimonials</a> -->
                 </li>
               </ul>
             </li>
@@ -99,8 +104,8 @@ a.navbar-brand {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #ffffff;
   background: #198754;
-  border-radius: 15%;
-  transition: 0.3s;
+  /* border-radius: 15%; */
+  transition: 0.5s;
 }
 
 /* nav done */

@@ -3,20 +3,21 @@
     <Navbar />
     <section id="About" class="bg-dark text-light section_style">
       <div class="container">
+        <div class="header">
+          <h2>
+            About
+            <span class="text-success">Me</span>
+          </h2>
+        </div>
         <div class="row">
           <div class="col-md-6">
             <img
               class="img-fluid about_pic"
-              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/about_pic.jpg?raw=true"
+              src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/290757584_5550234915000228_8585479001536840644_n.jpg?
+              _nc_cat=111&ccb=1-7&_nc_sid=9267fe&_nc_aid=0&_nc_ohc=FglWmzrWx54AX-g0XXA&_nc_ht=scontent-cpt1-1.xx&oh=00_AT827mugvhgYiHum8wyoB7J956vJ3foVt7uvuTnbPlVZ4w&oe=62DBB552"
             />
           </div>
           <div class="col-md-6 home_details">
-            <div class="header-about">
-              <h3>
-                About
-                <span class="text-success">Me</span>
-              </h3>
-            </div>
             <div class="about-info">
               <p>
                 Hi, My name is Abu-Bakr. I am an aspiring Full Stack Developer.
@@ -37,35 +38,31 @@
             </div>
             <div class="about_me_details">
               <div class="row">
-                <div class="col-lg-6 col-md-12 about_me_details_cols">
-                  <ul class="list-unstyled">
-                    <li>
-                      <span class="about_details text-light">Name:</span>
-                      <span class="about_details_col1">Abu-Bakr Khan</span>
-                    </li>
-                    <li>
-                      <span class="about_details text-light">Age:</span>
-                      <span class="about_details_col1">19</span>
-                    </li>
-                    <li>
-                      <span class="about_details text-light">Address:</span>
-                      <span class="about_details_col1"
-                        >Pelikan Park, South Africa</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6 col-md-12 about_me_details_cols">
-                  <ul class="list-unstyled">
-                    <li>
-                      <span class="about_details text-light">Phone:</span>
-                      <span>(+27) 74 480 1770</span>
-                    </li>
-                    <li>
-                      <span class="about_details text-light">E-Mail:</span>
-                      <span>abubakrkhan224@gmail.com</span>
-                    </li>
-                  </ul>
+                <div class="col-lg-12 about_me_details_cols">
+                  <table class="table text-light">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Full Name:</th>
+                        <td>Abu-Bakr Khan</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Age :</th>
+                        <td>19</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Location:</th>
+                        <td>Pelikan Park, South Africa</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Phone:</th>
+                        <td colspan="2">074 480 1770</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">email:</th>
+                        <td colspan="2">abubakrkhan224@gmail.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
@@ -83,6 +80,7 @@
 
         <div class="container skill-content">
           <div class="row">
+            <!-- HTML BADGE -->
             <div class="col-lg-6 col-md-12 skills">
               <div class="badges">
                 <i class="fa-brands fa-html5 text-danger"></i>
@@ -100,6 +98,7 @@
                 </div>
               </div>
             </div>
+            <!-- Bootstrap Badge -->
             <div class="col-lg-6 col-md-12 skills">
               <div class="badges">
                 <i class="fa-brands fa-bootstrap text-secondary"></i>
@@ -108,15 +107,16 @@
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
                   role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="65"
+                  style="width: 75%"
+                  aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  65%
+                  <!-- 65% -->
                 </div>
               </div>
             </div>
+            <!-- CSS Badge -->
             <div class="col-lg-6 col-md-12 skills">
               <div class="badges">
                 <i class="fa-brands fa-css3-alt text-info"></i>
@@ -125,16 +125,16 @@
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated bg-info"
                   role="progressbar"
-                  style="width: 80%"
+                  style="width: 85%"
                   aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  80%
+                  <!-- 80% -->
                 </div>
               </div>
             </div>
-
+            <!-- JavaScript Badge -->
             <div class="col-lg-6 col-md-12 skills">
               <div class="badges">
                 <i class="fa-brands fa-js bg-warning text-dark"></i>
@@ -143,15 +143,16 @@
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
                   role="progressbar"
-                  style="width: 100%"
+                  style="width: 65%"
                   aria-valuenow="0"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  Still Working on it ;)
+                  <!-- Still Working on it ;) -->
                 </div>
               </div>
             </div>
+            <!-- Vue3 Badge -->
             <div class="col-lg-6 col-md-12 skills">
               <div class="badges">
                 <i class="fa-brands fa-vuejs text-success"></i>
@@ -160,15 +161,16 @@
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated bg-success"
                   role="progressbar"
-                  style="width: 100%"
+                  style="width: 65%"
                   aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  Still working on it ;)
+                  <!-- Still working on it ;) -->
                 </div>
               </div>
             </div>
+            <!-- GitHub Badge -->
             <div class="col-lg-6 col-md-12 skills">
               <div class="badges">
                 <i class="fa-brands fa-github"></i>
@@ -182,7 +184,7 @@
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  80%
+                  <!-- 80% -->
                 </div>
               </div>
             </div>
@@ -366,12 +368,15 @@ export default {
 </script>
 <style>
 /* About */
+html {
+  scroll-behavior: smooth;
+}
 
 section#About {
   padding-top: 10%;
 }
 
-.header-about {
+.header {
   padding-bottom: 30px;
 }
 
@@ -397,6 +402,13 @@ img.about_pic {
 
 .about_details_col1 {
   padding-left: 10px;
+}
+th,
+td {
+  /* border-color: inherit; */
+  border-style: none;
+  /* border-width: 0; */
+  text-align: left;
 }
 
 .line-about {
@@ -461,8 +473,9 @@ img.about_pic {
 .Testimonial-pic {
   height: 300px;
   object-fit: cover;
-  border-radius: 20%;
+  /* border-radius: 20%; */
   padding-bottom: 20px;
+  filter: drop-shadow(5px 5px 7px black);
 }
 
 .testimonial-details {
@@ -476,4 +489,10 @@ img.about_pic {
 }
 
 /* about done */
+
+@media (max-width="992px") {
+  .carousel-inner {
+    height: 640px;
+  }
+}
 </style>
