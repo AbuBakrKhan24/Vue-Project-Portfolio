@@ -83,11 +83,12 @@
             <!-- HTML BADGE -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
-                  <i class="fa-brands fa-html5 text-danger"></i>
+                <div class="html_front">
+                  <i class="fa-brands fa-html5"></i>
                 </div>
                 <div class="html_back back">
-                  <i class="fa-brands fa-html5 text-danger"></i>
+                  <span class="badge_name">HTML</span>
+                  <i class="fa-brands fa-html5"></i>
                 </div>
               </div>
             </div>
@@ -95,11 +96,12 @@
             <!-- Bootstrap Badge -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
-                  <i class="fa-brands fa-bootstrap text-secondary"></i>
+                <div class="bootstrap_front">
+                  <i class="fa-brands fa-bootstrap"></i>
                 </div>
-                <div class="bootsstrap_back back">
-                  <i class="fa-brands fa-bootstrap text-secondary"></i>
+                <div class="bootstrap_back back">
+                  <span class="badge_name">BOOTSTRAP</span>
+                  <i class="fa-brands fa-bootstrap"></i>
                 </div>
               </div>
             </div>
@@ -107,11 +109,12 @@
             <!-- CSS Badge -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
-                  <i class="fa-brands fa-css3-alt text-info"></i>
+                <div class="css3_front">
+                  <i class="fa-brands fa-css3-alt"></i>
                 </div>
                 <div class="css3_back back">
-                  <i class="fa-brands fa-css3-alt text-info"></i>
+                  <span class="badge_name">css</span>
+                  <i class="fa-brands fa-css3-alt"></i>
                 </div>
               </div>
             </div>
@@ -119,11 +122,12 @@
             <!-- JavaScript Badge -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
-                  <i class="fa-brands fa-js bg-warning text-dark"></i>
+                <div class="js_front">
+                  <i class="fa-brands fa-js"></i>
                 </div>
                 <div class="js_back back">
-                  <i class="fa-brands fa-js bg-warning text-dark"></i>
+                  <span class="badge_name">JavaScript</span>
+                  <i class="fa-brands fa-js"></i>
                 </div>
               </div>
             </div>
@@ -131,11 +135,12 @@
             <!-- Vue3 Badge -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
-                  <i class="fa-brands fa-vuejs text-success"></i>
+                <div class="vuejs_front">
+                  <i class="fa-brands fa-vuejs"></i>
                 </div>
                 <div class="vuejs_back back">
-                  <i class="fa-brands fa-vuejs text-success"></i>
+                  <span class="badge_name">VueJs</span>
+                  <i class="fa-brands fa-vuejs"></i>
                 </div>
               </div>
             </div>
@@ -143,10 +148,11 @@
             <!-- GitHub Badge -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
+                <div class="github_front">
                   <i class="fa-brands fa-brands fa-github"></i>
                 </div>
                 <div class="github_back back">
+                  <span class="badge_name">GitHub</span>
                   <i class="fa-brands fa-brands fa-github"></i>
                 </div>
               </div>
@@ -155,10 +161,11 @@
             <!-- Databases badge -->
             <div class="badge_box">
               <div class="content">
-                <div class="front">
+                <div class="database_front">
                   <i class="fa-solid fa-database"></i>
                 </div>
                 <div class="database_back back">
+                  <span class="badge_name">MySQL Database</span>
                   <i class="fa-solid fa-database"></i>
                 </div>
               </div>
@@ -218,7 +225,7 @@
                   <div class="col-lg-6">
                     <img
                       src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/jason.png?raw=true"
-                      class="d-block w-100 Testimonial-pic"
+                      class="d-block Testimonial-pic"
                       alt="..."
                     />
                   </div>
@@ -240,7 +247,7 @@
                   <div class="col-lg-6">
                     <img
                       src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/Zoe%20(1).JPG?raw=true"
-                      class="d-block w-100 Testimonial-pic"
+                      class="d-block Testimonial-pic"
                       alt="..."
                     />
                   </div>
@@ -261,7 +268,7 @@
                   <div class="col-lg-6">
                     <img
                       src="https://github.com/AbuBakrKhan24/Vue-Project-Portfolio/blob/main/pics/Leandre%20(5)1.JPG?raw=true"
-                      class="d-block w-100 Testimonial-pic"
+                      class="d-block Testimonial-pic"
                       alt="..."
                     />
                   </div>
@@ -283,7 +290,7 @@
                   <div class="col-lg-6">
                     <img
                       src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/Carla%20(1).JPG?raw=true"
-                      class="d-block w-100 Testimonial-pic"
+                      class="d-block Testimonial-pic"
                       alt="..."
                     />
                   </div>
@@ -306,7 +313,7 @@
                   <div class="col-lg-6">
                     <img
                       src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/Mika.jpg?raw=true   "
-                      class="d-block w-100 Testimonial-pic"
+                      class="d-block Testimonial-pic"
                       alt="..."
                     />
                   </div>
@@ -342,252 +349,5 @@ export default {
 };
 </script>
 <style>
-/* About */
-html {
-  scroll-behavior: smooth;
-}
-
-section#About {
-  padding-top: 10%;
-}
-
-.header {
-  padding-bottom: 30px;
-}
-
-.about-info {
-  border-bottom: 1px solid #08d665;
-  margin-bottom: 13px;
-}
-
-img.about_pic {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.about_details {
-  font-weight: 600;
-  position: relative;
-  width: 60px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #222;
-}
-
-.about_details_col1 {
-  padding-left: 10px;
-}
-th,
-td {
-  /* border-color: inherit; */
-  border-style: none;
-  /* border-width: 0; */
-  text-align: left;
-}
-
-.line-about {
-  margin-top: 10%;
-  margin-bottom: 5%;
-  border-top: solid 2px #08d665;
-}
-
-/* Skilss */
-
-#Skills {
-  padding-bottom: 5%;
-}
-
-.skill-content {
-  display: flex;
-  flex-direction: column;
-}
-.skills {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 9%;
-}
-
-.badges {
-  /* font-size: 3pc; */
-  width: 100%;
-  text-align: center;
-}
-
-/* .badge_box {
-    width: 150px;
-    height: 150px;
-    display: flex;
-    border: 1px solid #08d665;
-    justify-content: center;
-    align-items: center;
-  } */
-
-/* card flip */
-.badge_box {
-  width: 150px;
-  height: 150px;
-  display: flex;
-  border: 2px solid #08d665;
-  justify-content: center;
-  align-items: center;
-
-  float: left;
-  perspective: 500px;
-  top: 50%;
-  left: 50%;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.badge_box:hover .content {
-  transform: rotateY(180deg);
-  transition: transform 0.5s;
-}
-
-.front,
-.back {
-  position: absolute;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background: #212529;
-  align-items: center;
-  line-height: 300px;
-  color: #03446a;
-  text-align: center;
-  font-size: 60px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  justify-content: center;
-}
-
-.back {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-/* .html_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-.css3_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-.js_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-.vuejs_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-.github_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-.bootstrap_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-}
-.database_back {
-  background: #03446a;
-  color: white;
-  transform: rotateY(180deg);
-} */
-
-.line-skills {
-  margin-top: 10%;
-  margin-bottom: 5%;
-  border-top: solid 2px #08d665;
-}
-
-i.fa-solid.fa-database {
-  color: mediumpurple;
-}
-
-i {
-  font-size: 100px;
-}
-
-/* Testimonials */
-
-/* #Testimonials {
-  padding-bottom: 5%;
-} */
-
-.container.Testimonials {
-  padding-bottom: 4%;
-  /* padding-top: 14px; */
-}
-
-.carousel-indicators {
-  bottom: 10px;
-}
-.carousel-indicators [data-bs-target] {
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-}
-
-.carousel-inner {
-  border: 2px solid #198754;
-  padding: 75px;
-}
-
-.Testimonial-pic {
-  height: 400px;
-  object-fit: cover;
-  /* border-radius: 20%; */
-  padding-bottom: 20px;
-  filter: drop-shadow(5px 5px 7px black);
-}
-
-.testimonial-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.modal-pic {
-  padding: 30px;
-}
-
-/* about done */
-
-@media (max-width="992px") {
-  .carousel-inner {
-    height: 640px;
-  }
-  .Testimonial-pic {
-    height: 300px;
-    object-fit: cover;
-  }
-}
+/* The Styles for this Vue file is stored in assets called About.css and is imported from main*/
 </style>

@@ -1,0 +1,438 @@
+/* About */
+html {
+  scroll-behavior: smooth;
+}
+
+section#About {
+  padding-top: 10%;
+}
+
+.header {
+  padding-bottom: 30px;
+}
+
+.about-info {
+  border-bottom: 1px solid #08d665;
+  margin-bottom: 13px;
+}
+
+img.about_pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about_details {
+  font-weight: 600;
+  position: relative;
+  width: 60px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.about_details_col1 {
+  padding-left: 10px;
+}
+th,
+td {
+  /* border-color: inherit; */
+  border-style: none;
+  /* border-width: 0; */
+  text-align: left;
+}
+
+.line-about {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-top: solid 2px #08d665;
+}
+
+/* Skills */
+
+#Skills {
+  padding-bottom: 5%;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 9%;
+}
+
+.badges {
+  width: 100%;
+  text-align: center;
+}
+
+/* card flip */
+.badge_box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 2px solid #08d665;
+  justify-content: center;
+  align-items: center;
+
+  float: left;
+  perspective: 500px;
+  top: 50%;
+  left: 50%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.badge_box:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.html_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: #dc3545;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.html_back {
+  background: #dc3545;
+  color: #212529;
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  line-height: 300px;
+
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.css3_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: #0dcaf0;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.css3_back {
+  background: #0dcaf0;
+  color: #212529;
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  line-height: 300px;
+
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+/* js bagde */
+.js_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  align-items: center;
+  line-height: 300px;
+
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+i.fa-brands.fa-js {
+  color: #212529;
+  background-color: #ffc107;
+}
+/* js bagde done */
+
+.js_back {
+  background: #ffc107;
+  color: #212529;
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  line-height: 300px;
+
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.vuejs_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: #198754;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.vuejs_back {
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #198754;
+  align-items: center;
+  line-height: 300px;
+  color: #212529;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.github_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.github_back {
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+  line-height: 300px;
+
+  color: #212529;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.bootstrap_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: #6c757d;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.bootstrap_back {
+  background: #6c757d;
+  color: #212529;
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  line-height: 300px;
+
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.database_front {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #212529;
+  align-items: center;
+  line-height: 300px;
+  color: #9370db;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.database_back {
+  transform: rotateY(180deg);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #9370db;
+  flex-direction: column;
+  align-items: center;
+  line-height: 300px;
+
+  color: #212529;
+  text-align: center;
+  font-size: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+
+.badge_name {
+  height: 10px;
+  line-height: 0;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.line-skills {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-top: solid 2px #08d665;
+}
+
+/* i {
+  font-size: 100px;
+} */
+
+/* Testimonials */
+
+/* #Testimonials {
+  padding-bottom: 5%;
+} */
+
+.container.Testimonials {
+  padding-bottom: 4%;
+  /* padding-top: 14px; */
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-inner {
+  border: 2px solid #198754;
+  padding: 75px;
+}
+
+.Testimonial-pic {
+  height: 400px;
+  object-fit: cover;
+  /* border-radius: 20%; */
+  padding-bottom: 20px;
+  filter: drop-shadow(5px 5px 7px black);
+  width: 100%;
+}
+
+.testimonial-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-pic {
+  padding: 30px;
+}
+
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: larger;
+}
+
+/* about done */
+
+@media (max-width="992px") {
+  .carousel-inner {
+    height: 640px;
+  }
+  .Testimonial-pic {
+    height: 300px;
+    object-fit: cover;
+  }
+}

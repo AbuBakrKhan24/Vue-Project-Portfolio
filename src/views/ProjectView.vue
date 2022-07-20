@@ -450,5 +450,8 @@ section#Projects {
   border-color: #565e64;
 }
 
+i.fa-brands.fa-github.github-icon-project {
+  font-size: large;
+}
 /* project done */
 </style>
