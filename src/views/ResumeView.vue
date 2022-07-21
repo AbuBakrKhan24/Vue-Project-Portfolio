@@ -1,5 +1,6 @@
 <template>
   <section id="Resume" class="resume bg-dark text-light">
+    <div class="container">
       <div class="header">
         <h2>
           My
@@ -65,6 +66,7 @@
         </div>
       </div>
       <div class="line-resume"></div>
+    </div>
     </div>
   </section>
 </template>

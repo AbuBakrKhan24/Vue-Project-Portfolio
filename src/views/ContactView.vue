@@ -105,8 +105,8 @@ section#Contact {
     padding-top: 6%;
     height: 92vh;
     display: flex;
-    /* justify-content: center; */
-    /* flex-direction: column; */
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contact_container {

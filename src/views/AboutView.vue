@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+ 
     <section id="About" class="bg-dark text-light section_style">
       <div class="container">
         <div class="header">

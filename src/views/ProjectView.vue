@@ -510,7 +510,7 @@
               <p>
                 This project I made from the course I took on FreeCodeCamp I had
                 to make a cat photo app with the resources that was given to me
-                on there website. I used just used HTML for this project.
+                on there website. I used HTML for this project.
               </p>
             </div>
           </div>
@@ -518,12 +518,12 @@
         <div class="modal-footer">
           <a
             class="btn btn-secondary"
-            href="https://github.com/AbuBakrKhan24/Personal_Portfolio.git"
+            href="https://github.com/AbuBakrKhan24/FCC_CatPhotoApp.git"
             target="_blank"
             ><i class="fa-brands fa-github github-icon-project"></i
           ></a>
           <a
-            href="https://merry-sundae-6ab06d.netlify.app"
+            href="https://willowy-douhua-c9589f.netlify.app"
             target="_blank"
             class="btn btn-primary"
           >
@@ -536,6 +536,469 @@
       </div>
     </div>
   </div>
+  <!-- Modal-project-6 -->
+  <div
+    class="modal fade"
+    id="project-6"
+    tabindex="-1"
+    aria-labelledby="project-6-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-6-Label">Project-6</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>Cafe Menu</h4>
+              <p>
+                This project I made from the course I took on FreeCodeCamp I had
+                to make a Coffee menu with the resources that was given to me
+                on there website. I used HTML and CSS for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/FCC_CafeMenu.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://superb-cupcake-0596ac.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-project-7 -->
+  <div
+    class="modal fade"
+    id="project-7"
+    tabindex="-1"
+    aria-labelledby="project-7-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-7-Label">Project-7</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>CSS Color Marker</h4>
+              <p>
+                This project I made from the course I took on FreeCodeCamp I had
+                to make Color Markers with the resources that was given to me
+                on there website. I used HTML and CSS for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/FCC_Set_of_Colored_Markers.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://heroic-biscotti-58cf9d.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-project-8 -->
+  <div
+    class="modal fade"
+    id="project-8"
+    tabindex="-1"
+    aria-labelledby="project-8-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-8-Label">Project-8</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>Register Form</h4>
+              <p>
+                This project I made from the course I took on FreeCodeCamp I had
+                to make a Register Form with the resources that was given to me
+                on there website. I used HTML and CSS for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/FCC_Registration_Form.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://silly-palmier-1fcbe5.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-project-9 -->
+  <div
+    class="modal fade"
+    id="project-9"
+    tabindex="-1"
+    aria-labelledby="project-9-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-9-Label">Project-9</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>BMI Calculator</h4>
+              <p>
+                This project I made from the course I took at LifeChoices Academy I had
+                to make a BMI Calculator. I used HTML, CSS and JavaScript for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/BMI_Calculator.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://heartfelt-treacle-9e3359.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal-project-10 -->
+  <div
+    class="modal fade"
+    id="project-10"
+    tabindex="-1"
+    aria-labelledby="project-10-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-10-Label">Project-10</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>Temperature Convertor</h4>
+              <p>
+                This project I made from the course I took at LifeChoices Academy I had
+                to make a Temperature Convertor. I used HTML, CSS and JavaScript for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/Temperature_Convertor.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://spontaneous-licorice-f35a96.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal-project-11 -->
+  <div
+    class="modal fade"
+    id="project-11"
+    tabindex="-1"
+    aria-labelledby="project-11-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-11-Label">Project-11</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>Rothko Painting</h4>
+              <p>
+                This project I made from the course I took on FreeCodeCamp I had
+                to make a Rothko Painting. I used HTML and CSS for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/FCC_Rothko_Painting.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://sensational-elf-d20cd7.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal-project-12 -->
+  <div
+    class="modal fade"
+    id="project-12"
+    tabindex="-1"
+    aria-labelledby="project-12-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-12-Label">Project-12</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>Typography Nutrition Label</h4>
+              <p>
+                This project I made from the course I took on FreeCodeCamp I had
+                to make a Typography Nutrition Label. I used HTML and CSS for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/FCC_Typography_Nutrition_Label.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://eclectic-kelpie-31ffa3.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal-project-13 -->
+  <div
+    class="modal fade"
+    id="project-13"
+    tabindex="-1"
+    aria-labelledby="project-13-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-13-Label">Project-13</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>To Do App</h4>
+              <p>
+                This project I made from the course I took at LifeChoices Academy I had
+                to make a To Do App. I used HTML, CSS and JavaScript for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/ToDo_App.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://thriving-pudding-8e9628.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal-project-14 -->
+  <div
+    class="modal fade"
+    id="project-14"
+    tabindex="-1"
+    aria-labelledby="project-14-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-14-Label">Project-14</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>Property Site</h4>
+              <p>
+                This project I made from the course I took at LifeChoices Academy I had
+                to make a Property Site . I used HTML, CSS and JavaScript for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/JS_Project.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://playful-sopapillas-9f6cd3.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";
