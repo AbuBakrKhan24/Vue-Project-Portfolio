@@ -82,6 +82,186 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-5"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62951849f18120156c83a604/screenshot_2022-05-30-19-17-37-0000.png"
+              />
+              <div class="project-details">
+                <div id="project5" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-6"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6298e9970b14d103de61e247/screenshot_2022-06-02-16-47-27-0000.png"
+              />
+              <div class="project-details">
+                <div id="project6" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-7"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62a0d2c51152ff00afc4e41e/screenshot_2022-06-08-16-48-12-0000.png"
+              />
+              <div class="project-details">
+                <div id="project7" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-8"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62a37cf66f7443752ce7c22b/screenshot_2022-06-10-17-18-54-0000.png"
+              />
+              <div class="project-details">
+                <div id="project8" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-9"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62a9e392ec42760008cb3f6a/screenshot_2022-06-15-13-50-17-0000.png"
+              />
+              <div class="project-details">
+                <div id="project9" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-10"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62a9b33580ed7b0008f7caa9/screenshot_2022-06-15-10-23-57-0000.png"
+              />
+              <div class="project-details">
+                <div id="project10" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-11"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62a9ff8a651ff14609007f49/screenshot_2022-06-15-15-49-41-0000.png"
+              />
+              <div class="project-details">
+                <div id="project11" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-12"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62b49c4c7ed223023cd381ab/screenshot_2022-06-23-17-01-07-0000.png"
+              />
+              <div class="project-details">
+                <div id="project12" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-13"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62b77b8e6f868200087a6a41/screenshot_2022-06-25-21-18-13-0000.png"
+              />
+              <div class="project-details">
+                <div id="project13" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 project-card">
+            <div
+              class="project"
+              data-bs-toggle="modal"
+              data-bs-target="#project-14"
+            >
+              <img
+                class="img-fluid"
+                src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62bf1c660ac02c000912478e/screenshot_2022-07-01-16-10-22-0000.png"
+              />
+              <div class="project-details">
+                <div id="project14" class="bg-dark"></div>
+                <div class="header-project-box">
+                  <h3>Click Me</h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="line-projects"></div>
@@ -305,6 +485,58 @@
       </div>
     </div>
   </div>
+  <!-- Modal-project-5 -->
+  <div
+    class="modal fade"
+    id="project-5"
+    tabindex="-1"
+    aria-labelledby="project-5-ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project-5-Label">Project-5</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h4>CatPhoto App</h4>
+              <p>
+                This project I made from the course I took on FreeCodeCamp I had
+                to make a cat photo app with the resources that was given to me
+                on there website. I used just used HTML for this project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/AbuBakrKhan24/Personal_Portfolio.git"
+            target="_blank"
+            ><i class="fa-brands fa-github github-icon-project"></i
+          ></a>
+          <a
+            href="https://merry-sundae-6ab06d.netlify.app"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <img
+              class="netlify-icon"
+              src="https://github.com/AbuBakrKhan24/Main_Project_Portfolio/blob/main/Resources/Images/4691413_netlify_icon.png?raw=true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";
@@ -369,6 +601,7 @@ section#Projects {
 .project-card {
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 30%;
 }
 
 .project img {

@@ -85,7 +85,7 @@ export default {
 /* Resume */
 section#Resume {
   padding-top: 6%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .resume .resume-item {
@@ -106,12 +106,12 @@ section#Resume {
   background: #fff;
   border: 2px solid #08d665;
 }
-
+/* 
 .line-resume {
-  margin-top: 10%;
-
+ 
+  padding-top: 5px;
   border-top: solid 2px #08d665;
-}
+} */
 
 /* resume done */
 </style>
