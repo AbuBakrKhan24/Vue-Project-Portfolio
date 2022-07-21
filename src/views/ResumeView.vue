@@ -1,12 +1,12 @@
 <template>
   <section id="Resume" class="resume bg-dark text-light">
-    <div class="container">
       <div class="header">
         <h2>
           My
           <span class="text-success">Resume</span>
         </h2>
       </div>
+    <div class="container resume_content">
       <div class="row">
         <div class="col-md-6">
           <h3 class="resume-title">Education</h3>
@@ -81,9 +81,17 @@ export default {
 </script>
 <style>
 /* Resume */
+
+
 section#Resume {
-  padding-top: 6%;
-  padding-bottom: 3%;
+      display: flex;
+    min-height: 92vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume_content {
+  text-align: justify;
 }
 
 .resume .resume-item {

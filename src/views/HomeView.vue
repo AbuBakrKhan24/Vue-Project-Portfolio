@@ -60,7 +60,7 @@ section.section_style {
 section#Home {
   padding-top: 5%;
   position: relative;
-  height: 91vh;
+  height: 92vh;
 }
 
 .home-info {
