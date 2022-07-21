@@ -22,32 +22,10 @@
                 >Home</router-link
               >
             </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#About"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                About
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <router-link class="dropdown-item" to="/about"
-                    >About Me</router-link
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#Skills">Skills</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#Testimonials">Testimonials</a>
-                </li>
-              </ul>
+          <li class="nav-item">
+              <router-link class="nav-link" to="/about">About</router-link>
             </li>
+          
             <li class="nav-item">
               <router-link class="nav-link" to="/resume">Resume</router-link>
             </li>

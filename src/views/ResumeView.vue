@@ -7,7 +7,7 @@
         </h2>
       </div>
     <div class="container resume_content">
-      <div class="row">
+      <div class="row resume_row">
         <div class="col-md-6">
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
@@ -81,14 +81,19 @@ export default {
 </script>
 <style>
 /* Resume */
-
+.resume_row {
+  padding-top: 6%;
+}
 
 section#Resume {
-      display: flex;
+    display: flex;
     min-height: 92vh;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 6%;
+  
 }
+
+
 
 .resume_content {
   text-align: justify;
