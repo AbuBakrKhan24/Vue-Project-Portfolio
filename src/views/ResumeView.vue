@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <section id="Resume" class="resume bg-dark text-light">
     <div class="container">
       <div class="header">
@@ -68,7 +67,6 @@
       <div class="line-resume"></div>
     </div>
   </section>
-  <Footer />
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";

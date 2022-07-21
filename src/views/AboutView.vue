@@ -335,7 +335,6 @@
       </div>
     </section>
   </div>
-  <Footer />
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";

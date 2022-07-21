@@ -44,10 +44,7 @@
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <router-link to="/about" tag="Testimonials"
-                    >Testimonials</router-link
-                  >
-                  <!-- <a class="dropdown-item" href="#Testimonials">Testimonials</a> -->
+                  <a class="dropdown-item" href="#Testimonials">Testimonials</a>
                 </li>
               </ul>
             </li>

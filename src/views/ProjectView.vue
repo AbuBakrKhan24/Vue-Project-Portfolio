@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <section id="Projects" class="bg-dark text-light min-vh-100">
     <div class="container project-box">
       <div class="header">
@@ -267,7 +266,7 @@
       <div class="line-projects"></div>
     </div>
   </section>
-  <Footer />
+
   <!-- MODALS GO HERE -->
 
   <!-- Modal-project-1 -->

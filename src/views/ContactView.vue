@@ -2,6 +2,91 @@
   <Navbar />
   <section id="Contact" class="bg-dark text-light">
     <div class="container">
+      <div class="header-contact">
+        <h2>
+          CONTACT
+          <span class="text-success">ME</span>
+        </h2>
+      </div>
+      <form action="https://formspree.io/f/mzbojdwq" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact_input">
+              <input
+                type="text"
+                class="form-control bg-dark text-light"
+                id="formGroupExampleInput"
+                placeholder="Full Name"
+              />
+              <div class="row">
+                <div class="col mt-3">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-light"
+                    placeholder="Email"
+                    aria-label="Email"
+                  />
+                </div>
+                <div class="col mt-3">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-light"
+                    placeholder="Subject"
+                    aria-label="Subject"
+                  />
+                </div>
+              </div>
+              <textarea
+                rows="5"
+                name="message"
+                class="form-control bg-dark text-light mt-3"
+                placeholder="Your Message"
+                required="required"
+              ></textarea>
+            </div>
+            <div class="sub-button mt-3">
+              <input type="submit" value="Send message" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row contact-box-details">
+              <div class="contact_details border border-white">
+                <h6>CONTACT ADDRESS</h6>
+                <div class="container contact_icons">
+                  <div class="col contact_info">
+                    <div class="contact_icon_info">
+                      <i class="fa-solid fa-location-dot"> </i>
+                    </div>
+                    <div class="details">
+                      <p>Pelikan Park</p>
+                    </div>
+                  </div>
+                  <div class="col contact_info">
+                    <div class="contact_icon_info">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="details">
+                      <p>abubakrkhan224@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col contact_info">
+                    <div class="contact_icon_info">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="details">
+                      <p>(+27) 74 480 1770</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- <section id="Contact" class="bg-dark text-light">
+    <div class="container">
       <div class="section-title">
         <h2>Contact</h2>
         <p>
@@ -102,7 +187,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="container">
+    <div class="container">
       <div class="header-contact">
         <h2>
           CONTACT
@@ -184,9 +269,8 @@
           </div>
         </div>
       </form>
-    </div> -->
-  </section>
-  <Footer />
+    </div>
+  </section> -->
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";

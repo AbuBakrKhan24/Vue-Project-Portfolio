@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <section id="Home" class="text-light section_style">
     <div id="homepage" class="bg-dark"></div>
     <div class="container home-info">
@@ -17,8 +16,6 @@
       </div>
     </div>
   </section>
-
-  <Footer />
 </template>
 
 <script>
