@@ -22,10 +22,10 @@
                 >Home</router-link
               >
             </li>
-          <li class="nav-item">
+            <li class="nav-item">
               <router-link class="nav-link" to="/about">About</router-link>
             </li>
-          
+
             <li class="nav-item">
               <router-link class="nav-link" to="/resume">Resume</router-link>
             </li>
@@ -46,7 +46,7 @@ export default {
   name: "Navbar",
 };
 </script>
-<style scoped>
+<style>
 /* nav */
 nav.navbar {
   position: fixed;
@@ -63,9 +63,12 @@ nav.navbar {
 
 .nav-sections {
   display: flex;
-  justify-content: end;
   width: 100%;
   padding-right: 20px;
+  padding-left: 20px;
+  background-color: #212529;
+  flex-direction: column;
+  align-content: center;
 }
 
 .nav-item {
@@ -84,4 +87,12 @@ a.navbar-brand {
 }
 
 /* nav done */
+
+@media screen and (max-width: 1000px) {
+  nav.navbar {
+    width: 0;
+    left: 0%;
+    z-index: 100;
+  }
+}
 </style>

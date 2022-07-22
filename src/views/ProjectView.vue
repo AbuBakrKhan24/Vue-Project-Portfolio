@@ -370,15 +370,65 @@ i.fa-brands.fa-github.github-icon-project {
 }
 /* project done */
 
-.row * > {
+.row > * {
   flex-shrink: 0;
-  /* width: 100%; */
-  /* max-width: 100%; */
+  width: 33%;
+  max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
-  /* padding-left: calc(var(--bs-gutter-x) * 0.5); */
-  /* padding-left: calc(var(--bs-gutter-x) * 0.5); */
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
   padding-bottom: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
-  margin-bottom: 20px;
+}
+.row * > {
+  flex-shrink: 0;
+  width: 33%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 33%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 33%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+@media screen and (max-width: 1000px) {
+  .row > *[data-v-3e99fe14] {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .row > *[data-v-3e99fe14] {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
 }
 </style>

@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <section id="Contact" class="bg-dark text-light">
     <div class="header-contact">
       <h2>
