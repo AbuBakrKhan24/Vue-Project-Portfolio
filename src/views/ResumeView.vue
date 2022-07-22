@@ -7,66 +7,39 @@
           <span class="text-success">Resume</span>
         </h2>
       </div>
-    <div class="container resume_content">
-      <div class="row resume_row">
-        <div class="col-md-6">
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Grassy Park High School</h4>
-            <h5>2017 - 2020</h5>
-            <p><em>Secondary High School, Grassy Park, Cape Town</em></p>
-            <p>
-              I attended Grassy Park High School for four years as I started in
-              grade nine and was a transfer student from Pelican Park High
-              School. I have participated in sporting activities while attending
-              the school, and always helped the teachers with setting up their
-              laptops and the projectors, I was their so-called tech boy.
-            </p>
+      <div class="container resume_content">
+        <div class="row resume_row">
+          <div class="col-md-6">
+            <h3 class="resume-title">Education</h3>
+            <div v-for="resume in resume" :key="resume.id">
+              <div class="resume-item">
+                <!-- <h4>Grassy Park High School</h4> -->
+                <h4>{{ resume.name_place }}</h4>
+                <h5>{{ resume.year }}</h5>
+                <p>
+                  <em>{{ resume.place_info }}</em>
+                </p>
+                <p>{{ resume.desc }}</p>
+              </div>
+            </div>
           </div>
-          <div class="resume-item">
-            <h4>Muhammadeyah Primary School</h4>
-            <h5>2009 - 2015</h5>
-            <p><em>Muslim School, Wynberg, Cape Town</em></p>
-            <p>
-              I attended Muhammadeyah Muslim Primary School, was involved with
-              sports activities for sports day, and played rugby for the school.
-              I have had computer classes where we learned how to use a computer
-              and how to use Microsoft Office Applications.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
-            <h4>Full Stack Developer</h4>
-            <h5>2022 - Present</h5>
-            <p><em>Life Choices, Lansdowne, Cape Town </em></p>
-            <ul class="list-unstyled">
-              <li>Attending an</li>
-              <li>
-                Attending an academy that focuses on Front-End and Back-End
-                Development, is a 12-month course broken up into the first 6
-                months the learning how to code and the other 6 months is where
-                we work for an internship.
-              </li>
-            </ul>
-          </div>
-          <div class="resume-item">
-            <h4>Call Center Agent</h4>
-            <h5>2021</h5>
-            <p><em>AskOsca, Grassy Park, Cape Town</em></p>
-            <ul class="list-unstyled">
-              <li>
-                Worked at a call center company called AskOsca for a leadership
-                that was for 12 months, I have learned how to deal with speaking
-                to people from different companies professionally.
-              </li>
-            </ul>
+          <div class="col-md-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div v-for="resume2 in resume2" :key="resume2.id">
+              <div class="resume-item">
+                <!-- <h4>Grassy Park High School</h4> -->
+                <h4>{{ resume2.name_place }}</h4>
+                <h5>{{ resume2.year }}</h5>
+                <p>
+                  <em>{{ resume2.place_info }}</em>
+                </p>
+                <p>{{ resume2.desc }}</p>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="line-resume"></div>
       </div>
-      <div class="line-resume"></div>
-    </div>
     </div>
   </section>
 </template>
@@ -75,6 +48,43 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
+  data() {
+    return {
+      resume: [
+        {
+          id: "1",
+          name_place: "Grassy Park High School",
+          year: "2017 - 2020",
+          place_info: "Secondary High School, Grassy Park, Cape Town",
+          desc: "I attended Grassy Park High School for four years as I started in grade nine and was a transfer student from Pelican Park High School. I have participated in sporting activities while attending the school, and always helped the teachers with setting up their laptops and the projectors, I was their so-called tech boy.",
+        },
+        {
+          id: "2",
+          name_place: "Muhammadeyah Primary School",
+          year: "2009 - 2015",
+          place_info: "Muslim School, Wynberg, Cape Town",
+          desc: "I attended Muhammadeyah Muslim Primary School, was involved with sports activities for sports day, and played rugby for the school. I have had computer classes where we learned how to use a computer and how to use Microsoft Office Applications.",
+        },
+      ],
+      resume2: [
+        {
+          id: "1",
+          name_place: "Aspiring Full Stack Developer",
+          year: "2022 - Present",
+          place_info: "Life Choices, Lansdowne, Cape Town",
+          desc: "Attending an academy that focuses on Front-End and Back-End Development, is a 12-month course broken up into the first 6 months the learning how to code and the other 6 months is where we work for an internship.",
+        },
+        {
+          id: "2",
+          name_place: "Call Center Agent",
+          year: "2021",
+          place_info: "AskOsca, Grassy Park, Cape Town",
+          desc: "Worked at a call center company called AskOsca for a leadership that was for 12 months, I have learned how to deal with speaking to people from different companies professionally.",
+        },
+      ],
+    };
+  },
+
   components: {
     Navbar,
     Footer,
@@ -88,14 +98,11 @@ export default {
 }
 
 section#Resume {
-    display: flex;
-    min-height: 92vh;
-    flex-direction: column;
-    padding-top: 6%;
-  
+  display: flex;
+  min-height: 92vh;
+  flex-direction: column;
+  padding-top: 6%;
 }
-
-
 
 .resume_content {
   text-align: justify;

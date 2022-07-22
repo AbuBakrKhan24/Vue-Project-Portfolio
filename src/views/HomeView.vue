@@ -1,7 +1,5 @@
 <template>
-
   <section id="Home" class="text-light section_style">
-    
     <div id="homepage" class="bg-dark"></div>
     <div class="container home-info">
       <div class="row">
@@ -26,17 +24,23 @@
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
-
 export default {
   components: {
     Navbar,
     Footer,
-
   },
 };
 </script>
 
 <style scoped>
+.links {
+  font-size: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 5px;
+}
 /* all */
 section.section_style {
   display: flex;

@@ -1,12 +1,12 @@
 <template>
   <Navbar />
   <section id="Contact" class="bg-dark text-light">
-      <div class="header-contact">
-        <h2>
-          Contact
-          <span class="text-success">Me</span>
-        </h2>
-      </div>
+    <div class="header-contact">
+      <h2>
+        Contact
+        <span class="text-success">Me</span>
+      </h2>
+    </div>
     <div class="container contact_container">
       <form action="https://formspree.io/f/mzbojdwq" method="POST">
         <div class="row">
@@ -76,6 +76,20 @@
                     <div class="details">
                       <p>(+27) 74 480 1770</p>
                     </div>
+                    <div class="col links">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/abu-bakr-khan-a58b23225/"
+                      >
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/AbuBakrKhan24"
+                      >
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -85,7 +99,6 @@
       </form>
     </div>
   </section>
- 
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";
@@ -102,20 +115,18 @@ export default {
 /* contact */
 
 section#Contact {
-    padding-top: 6%;
-    height: 92vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  padding-top: 6%;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-
 
 .header-contact {
   display: flex;
@@ -196,5 +207,30 @@ input[type="submit"]:hover {
 
 .contact-boc-details {
   margin: 0px;
+}
+
+.links {
+  font-size: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+a {
+  color: aliceblue;
+}
+a {
+  /* color: var(--bs-link-color); */
+  text-decoration: none;
+}
+
+i:hover {
+  color: #212529;
+  transition: 0.3s;
+}
+
+i.fa-brands.fa-linkedin {
+  margin-right: 10px;
 }
 </style>
