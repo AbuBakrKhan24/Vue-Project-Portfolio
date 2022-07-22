@@ -370,7 +370,7 @@ i.fa-brands.fa-github.github-icon-project {
 }
 /* project done */
 
-.row > * {
+.row {
   flex-shrink: 0;
   width: 33%;
   max-width: 100%;
@@ -399,7 +399,7 @@ i.fa-brands.fa-github.github-icon-project {
   margin-top: var(--bs-gutter-y);
 }
 
-.row > * {
+.row > * > {
   flex-shrink: 0;
   width: 33%;
   max-width: 100%;
