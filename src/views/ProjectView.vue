@@ -8,7 +8,7 @@
         </h2>
       </div>
       <div class="container">
-        <div class="row project-holder">
+        <div class="project-holder">
           <div v-for="project_card in project_card" :key="project_card.id">
             <!-- <div class="col"> -->
             <div class="project">
@@ -231,11 +231,20 @@ section#Projects {
 .project {
   position: relative;
   /* width: 25%; */
+  margin: 10px;
 }
-.row .project-holder {
+.project-holder {
+     flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
 }
+
+/* .row>* {
+    flex-shrink: 0;
+    width: 33%;
+    max-width: 100%;
+
+} */
 
 .project-details {
   background: #212529;
@@ -370,65 +379,5 @@ i.fa-brands.fa-github.github-icon-project {
 }
 /* project done */
 
-.row {
-  flex-shrink: 0;
-  width: 33%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-}
-.row * > {
-  flex-shrink: 0;
-  width: 33%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-}
 
-.row > * {
-  flex-shrink: 0;
-  width: 33%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-}
-
-.row > * > {
-  flex-shrink: 0;
-  width: 33%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-}
-
-@media screen and (max-width: 1000px) {
-  .row > *[data-v-3e99fe14] {
-    flex-shrink: 0;
-    width: 50%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    padding-bottom: calc(var(--bs-gutter-x) * 0.5);
-    margin-top: var(--bs-gutter-y);
-  }
-}
-@media screen and (max-width: 1000px) {
-  .row > *[data-v-3e99fe14] {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    padding-bottom: calc(var(--bs-gutter-x) * 0.5);
-    margin-top: var(--bs-gutter-y);
-  }
-}
 </style>
