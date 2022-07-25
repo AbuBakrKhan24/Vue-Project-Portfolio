@@ -218,6 +218,11 @@ section#Projects {
   padding-top: 6%;
 }
 
+.header-project-box > * {
+  position: relative;
+  z-index: 100;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -234,7 +239,7 @@ section#Projects {
   margin: 10px;
 }
 .project-holder {
-     flex-shrink: 0;
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -378,6 +383,4 @@ i.fa-brands.fa-github.github-icon-project {
   padding-top: 10%;
 }
 /* project done */
-
-
 </style>
