@@ -1,6 +1,5 @@
 <template>
   <div>
- 
     <section id="About" class="bg-dark text-light section_style">
       <div class="container">
         <div class="header">
@@ -13,8 +12,7 @@
           <div class="col-lg-6 col-md-12">
             <img
               class="img-fluid about_pic"
-              src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/290757584_5550234915000228_8585479001536840644_n.jpg?
-              _nc_cat=111&ccb=1-7&_nc_sid=9267fe&_nc_aid=0&_nc_ohc=FglWmzrWx54AX-g0XXA&_nc_ht=scontent-cpt1-1.xx&oh=00_AT827mugvhgYiHum8wyoB7J956vJ3foVt7uvuTnbPlVZ4w&oe=62DBB552"
+              src="https://github.com/AbuBakrKhan24/E-com-back-end/blob/main/resources/about%20img.jpg?raw=true"
             />
           </div>
           <div class="col-lg-6 col-md-12 home_details">
