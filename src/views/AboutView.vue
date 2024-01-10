@@ -45,11 +45,11 @@
                       </tr>
                       <tr>
                         <th scope="row">Age :</th>
-                        <td>19</td>
+                        <td>21</td>
                       </tr>
                       <tr>
                         <th scope="row">Location:</th>
-                        <td>Pelikan Park, South Africa</td>
+                        <td>Pelikan Park, Cape Town</td>
                       </tr>
                       <tr>
                         <th scope="row">Phone:</th>
